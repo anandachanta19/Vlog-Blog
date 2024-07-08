@@ -266,14 +266,14 @@ def contact():
                    f"Email: {data['email']}\n"
                    f"Phone Number: {data['phone']}\n"
                    f"Message: {data['message']}")
-        print(message)
+        safe_message = message.encode('ascii', 'ignore').decode('ascii')
         with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
             connection.starttls()
             connection.login(user=FROM, password=PASSWORD)
             connection.sendmail(from_addr=FROM,
                                 to_addrs=TO,
                                 msg=f"Subject:New Visitor to Blogs\n\n"
-                                    f"{message}")
+                                    f"{safe_message}")
         return render_template("contact.html", msg_sent=True)
     else:
         return render_template("contact.html", msg_sent=False)
