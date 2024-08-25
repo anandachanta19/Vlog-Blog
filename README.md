@@ -13,7 +13,7 @@ The Website takes 1 minute to get loaded as I don't have the premium subscriptio
 
 ## 🚀 Project Overview
 
-**Vlog-Blog** is a full-stack web application that allows users to create and manage blogs and vlogs. With a user-friendly interface and seamless integration between blog and video content, the platform is built using Python, Flask, Bootstrap, and PostgreSQL.
+**Vlog-Blog** is a full-stack web application that allows users to create and manage blogs and vlogs. With a user-friendly interface and seamless integration between blog and video content(currently the platform supportsonly blogs) the platform is built using Python, Flask, Bootstrap, and PostgreSQL.
 
 ![Screenshot 2024-08-25 144653](https://github.com/user-attachments/assets/be31f6cd-d597-4b0a-8e05-2e13f9ec3d70)
 ![Screenshot 2024-08-25 144948](https://github.com/user-attachments/assets/fd635ce8-8c2a-46c9-bcd4-0808c9cfae5d)
