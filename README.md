@@ -9,6 +9,8 @@
 
 Check out the live version here: [Vlog-Blog Website](https://vlog-blog.onrender.com/)
 
+The Website takes 1 minute to get loaded as I don't have the premium subscription
+
 ## 🚀 Project Overview
 
 **Vlog-Blog** is a full-stack web application that allows users to create and manage blogs and vlogs. With a user-friendly interface and seamless integration between blog and video content, the platform is built using Python, Flask, Bootstrap, and PostgreSQL.
